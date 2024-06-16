@@ -91,4 +91,4 @@ class Level:
     def run(self):
         self.visible_sprites.update()
         self.visible_sprites.draw(self.display_surface)
-#Level rework costam
+        #i ostatnia zmiana
