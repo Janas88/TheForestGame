@@ -23,7 +23,7 @@ class Level:
                 tile = Tile([row_index, col_index], self, surface)
                 self.visible_sprites.add(tile)
                 tile_row.append(tile)
-            self.tile_grid.append(tile_row)
+            self.tile_grid.append(tile_row) #a tutaj costam innego
 
         for row, line in enumerate(POPULATE_MAP):
             for col, char in enumerate(line):
@@ -87,7 +87,8 @@ class Level:
 
     def show_attack(self):
         pass
-
+#zmieniam cos tutaj
     def run(self):
         self.visible_sprites.update()
         self.visible_sprites.draw(self.display_surface)
+#Level rework costam

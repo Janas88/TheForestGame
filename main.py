@@ -6,8 +6,8 @@ from Level import Level
 import pygame.font
 
 sys.stdout = StringIO()
-font_path = FONT_PATH
-font_size = CONSOLE_FONT_SIZE
+font_path = FONT_PATH #cośtam cośtam
+font_size = CONSOLE_FONT_SIZE #branchout
 
 
 class Game:
